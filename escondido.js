@@ -17,7 +17,7 @@ function verificar() {
     let nome = document.getElementById("user").value;
     let senha = document.getElementById("senha").value;
 
-    if (nome === "warmachine68" && senha === "MAQUINA DE COMBATE ARREBENTA") {
+    if (nome === "warmachine68" && senha === "MAQUINADECOMBATEARREBENTA") {
         document.getElementById("errado").innerHTML = "";
         localStorage.user = "Válido";
         window.location.href = "../Pag_adm/index.html";
